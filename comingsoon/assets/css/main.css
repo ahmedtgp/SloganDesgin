@@ -1,0 +1,313 @@
+/*
+Theme Name: Slogan-IT Web
+Author: Ahmed Nasser
+
+Color Palette: 
+    Primary 	    : #A26F10
+    Headers 	    : #10161A
+    Selection       : #EFBC5D
+	Body 		    : #868F9B
+	Dark            : #FCFCFF
+	Grey 		    : #F4F4F4 #FAFAFA #EEE
+
+Fonts: Roboto Cairo Sans-Serif
+
+Table OF Contents
+------------------------------------
+1 > General
+2 > Logo
+3 > Navigation
+4 > Header
+5 > About
+6 > Portfolio
+7 > Services
+
+21 > Preloader
+
+------------------------------------*/
+
+/*------------------------------------*\
+	General
+\*------------------------------------*/
+
+
+/* -- typography -- */
+
+body {
+    font-family: 'Roboto', 'Cairo', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    overflow-x: hidden;
+    color: #868F9B;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #10161A;
+}
+
+h1 {
+    font-size: 54px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 21px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+a {
+    color: #a26f10;
+    text-decoration: none;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+    opacity: 0.8;
+    color: #a26f10;
+}
+
+.main-color {
+    color: #a26f10;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.grey-text{
+    color: #868F9B;
+}
+
+::-moz-selection {
+    background-color: #efbc5d;
+    color: #fff;
+}
+
+::selection {
+    background-color: #efbc5d;
+    color: #fff;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+/* -- section  -- */
+
+.section {
+    position: relative;
+}
+
+.md-padding {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.sm-padding {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+/* --  background section  -- */
+
+.bg-grey {
+    background-color: #fafafa;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.bg-dark {
+    background-color: #1C1D21;
+}
+
+
+/* --  background image section  -- */
+
+.bg-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-img .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .8;
+    background: #1C1D21;
+}
+
+
+/* --  section header  -- */
+
+.section-header {
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.section-header .title {
+    text-transform: capitalize;
+}
+
+.title:after {
+    content:"";
+  	display:block;
+  	height:4px;
+  	width:40px;
+  	background-color: #a26f10;
+    margin-top: 20px;
+}
+
+.text-center .title:after {
+    margin: 20px auto 0px;
+}
+
+/*------------------------------------*\
+	Logo
+\*------------------------------------*/
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-brand .logo, .navbar-brand .logo-alt {
+    max-height: 50px;
+    display: block;
+}
+.navbar-brand .logo-alt{
+    max-height: 100px;
+    margin-top: -10px; 
+}
+#nav:not(.nav-transparent):not(.fixed-nav) .navbar-brand .logo-alt {
+	display: none;
+}
+
+#nav.nav-transparent:not(.fixed-nav) .navbar-brand .logo {
+	display: none;
+}
+
+#nav.fixed-nav .navbar-brand .logo-alt {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    #nav.nav-transparent .navbar-brand .logo-alt {
+        display: none !important;
+    }
+    #nav.nav-transparent .navbar-brand .logo {
+        display: block !important;
+    }
+}
+
+
+
+
+/*------------------------------------*\
+	Header
+\*------------------------------------*/
+
+#home {
+    height: 100vh;
+    position: relative;
+}
+
+#home .home-wrapper {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.home-content h1 {
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 76px;
+    display: none;
+}
+.home-content a {
+    color: #fff;
+    display: none;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+
+.home-content a:hover {
+   color: #a26f10;
+}
+
+
+/*------------------------------------*/
+#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 99999;
+}
+.preloader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+.preloader img{
+    max-width: 250px;
+    max-height: 360px;
+    opacity: 0.3;
+    text-align: center;
+    animation: loaderbeats 1s linear infinite ;
+}
+@keyframes loaderbeats{
+    0%{
+        transform: scale(1,1);
+        opacity: 0.45;  
+    }
+    50%{
+        transform: scale(0.9,0.9);
+        opacity: 0.3;
+    }
+    100%{
+        transform: scale(1,1);
+        opacity: 0.45;
+    }
+    
+}
+

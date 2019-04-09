@@ -1,0 +1,1099 @@
+<!--
+Theme Name: Slogan-IT Web
+Author: Ahmed Nasser
+
+Table OF Contents
+------------------------------------
+01 > Head
+    a.meta tags
+    b.title & icon
+    c.fonts
+    d.bootstrap css
+    e.font awesome
+    f.maginfic popup
+    g.owlcarousel css
+    h.custom css
+
+02 > Header
+    a.background image
+    b.navbar
+        1-logo
+        2-collapse button
+        3-main navigation 
+    c.home content
+
+03 > About
+    a.section header
+    b.about statment
+    c.about
+    d.modal //about and modal been repeated three times
+
+05 > Numbers
+    a.number ×4
+
+04 > Portfolio
+    a.section header
+    b.mixer menu
+    c.work ×6
+
+05 > Services
+    a.section header
+    b.service ×6
+
+06 > Testmonials
+    a.Testmonial slider
+
+07 > Contact
+
+08 > Footer
+
+09 > Back To Top
+
+10 > Preloader
+
+11 > jQuery Plugins
+------------------------------------
+-->
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The Above 3 Meta Tags Comes First -->
+        
+        <!-- Tab title and icon -->
+        <title>Slogan-IT</title>
+        <link rel="Icon" href="assets/images/iconLogo.png" />
+
+        <!-- Google font -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" /> 
+        <link href="https://fonts.googleapis.com/css?family=Cairo:400,700&amp;subset=arabic" rel="stylesheet" />
+              
+        <!-- Bootstrap -->
+        <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        
+        <!-- Font Awesome Icon -->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+            
+        <!-- Magnific Popup -->
+        <link type="text/css" rel="stylesheet" href="assets/css/magnific-popup.css" />
+
+        <!-- Animate css -->
+        <link type="text/css" rel="stylesheet" href="assets/css/animate.css" />
+    
+        <!-- Owl Carousel -->
+        <link type="text/css" rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+        <link type="text/css" rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+    
+        <!-- myCustom stlylesheet -->
+        <link type="text/css" rel="stylesheet" href="assets/css/main.css" />
+    
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <!-- Header -->
+	    <header id="home">
+
+            <!-- Background Image -->
+            <div class="bg-img" style="background-image: url('assets/images/background1.png');">
+                <div class="overlay"></div>
+            </div>
+            <!-- /Background Image -->
+            
+            <!-- Nav -->
+            <nav id="nav" class="navbar nav-transparent">
+                <div class="container">
+    
+                    <div class="navbar-header">
+                        <!-- Logo -->
+                        <div class="navbar-brand">
+                            <a href="#home">
+                                <img class="logo" src="assets/images/iconLogo.png" alt="logo">
+                                <img class="logo-alt" src="assets/images/logo3.png" alt="logo">
+                            </a>
+                        </div>
+                        <!-- /Logo -->
+    
+                        <!-- Collapse nav button -->
+                        <div class="nav-collapse">
+                            <span></span>
+                        </div>
+                        <!-- /Collapse nav button -->
+                    </div>
+    
+                    <!--  Main navigation  -->
+                    <ul class="main-nav nav navbar-nav navbar-right">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#service">Services</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <!-- /Main navigation -->
+    
+                </div>
+            </nav>
+            <!-- /Nav -->
+    
+            <!-- home wrapper -->
+            <div class="home-wrapper">
+                <div class="container">
+                    <div class="row">
+    
+                        <!-- home content -->
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="home-content ">
+                                <h1 class="white-text upper-text">We Are Creative Agency</h1>
+                                <h2 class="white-text">MAKING <span class="it"><a href="#service">IT</a></span> EASY</h2>
+                                <p class="white-text">
+                                </p>
+                                <a id="know-more" href="#about" ><span></span></a>
+                            </div>
+                        </div>
+                        <!-- /home content -->
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- /home wrapper -->   
+        </header>
+        <!-- /Header -->
+
+        <!-- About -->
+        <div id="about" class="section md-padding ">
+
+            <!-- Container -->
+            <div class="container">
+                <!-- Row -->
+                <div class="row">
+
+                    <!-- Section header -->
+                    <div class="section-header text-center">
+                        <h2 class="title slideanim upper-text">Welcome to Slogan</h2>
+                    </div>
+                    <!-- /Section header -->
+
+                </div>
+                <!-- /Row -->
+
+                <!-- Row -->
+                <div class="row statment">
+
+                        <!-- About statment -->
+                        <div class="col-lg-8 col-sm-12 slideanim">
+                                <div class="section-header">
+                                        <h3 class="title">About Slogan</h3>
+                                </div>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                <p >It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                            </div>
+
+                        <div class="col-lg-4 col-sm-0  statmentImg slideanim">
+                            <img class="img-responsive" src="assets/images/logo2.png" alt="company logo" />
+                        </div>
+                        <!-- /About statment -->
+
+                </div>
+                <!-- /Row -->
+
+                <!-- Row -->
+                <div class="row">
+                                
+                    <!-- Timeline -->
+                    <div class="col-lg-12">
+                        <ul class="timeline">
+
+                            <!-- timeline -->
+                            <li class="slideanim">
+                                <div class="timeline-image">
+                                    <a href="#timelineModal1" class="timeline-link" data-toggle="modal">
+                                     <img class="img-circle img-responsive" src="assets/images/1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>2009-2011</h4>
+                                        <h4 class="subheading">Our Humble Beginnings</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- /timeline -->
+
+                            <!-- timeline -->
+                            <li class="timeline-inverted slideanim">
+                                <div class="timeline-image">
+                                    <a href="#timelineModal1" class="timeline-link" data-toggle="modal">
+                                        <img class="img-circle img-responsive" src="assets/images/2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>2009-2011</h4>
+                                        <h4 class="subheading">An Agency is Born</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- /timeline -->              
+
+                            <!-- timeline -->
+                            <li class="slideanim">
+                                <div class="timeline-image">
+                                    <a href="#timelineModal1" class="timeline-link" data-toggle="modal">
+                                        <img class="img-circle img-responsive" src="assets/images/3.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>2009-2011</h4>
+                                        <h4 class="subheading">Transition to Full Service</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- /timeline -->            
+
+                            <!-- timeline -->
+                            <li class="timeline-inverted slideanim">
+                                <div class="timeline-image">
+                                    <a href="#timelineModal1" class="timeline-link" data-toggle="modal">
+                                        <img class="img-circle img-responsive" src="assets/images/1.jpg" alt="">
+                                    </a>
+                                </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4>2009-2011</h4>
+                                            <h4 class="subheading">Phase Two Expansion</h4>
+                                        </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- /timeline -->            
+
+                            <!-- timeline -->
+                                <li class="timeline-inverted slideanim">
+                                    <div class="timeline-image">
+                                        <a href="#contact">
+                                            <h4 class="white-text">Be Part
+                                                <br>Of Our
+                                                <br>Story!
+                                            </h4>
+                                        </a>
+                                    </div>
+                            </li>
+                            <!-- /timeline -->
+
+                        </ul>
+                    </div>
+                    <!-- /Timeline -->
+
+                </div>
+                <!-- /Row -->
+            </div>
+            <!-- /Container -->
+            
+        </div>
+        <!-- /About -->
+
+        <!-- Timeline Modal 1 -->
+        <div class="timeline-modal modal fade" id="timelineModal1" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="close-modal" data-dismiss="modal">
+                            <div class="lr">
+                                <div class="rl">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-8 col-lg-offset-2">
+                                    <div class="modal-body">
+                                        <!-- Project Details Go Here -->
+                                        <h2>Project Name</h2>
+                                        <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                        <img class="img-responsive img-centered" src="assets/images/aboutmodal1.jpg" alt="">
+                                        <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                        <p>
+                                            <strong>Want these icons in this portfolio item sample?</strong>.</p>
+                                        <ul class="list-inline">
+                                            <li>Date: July 2014</li>
+                                            <li>Client: Round Icons</li>
+                                            <li>Category: Graphic Design</li>
+                                        </ul>
+                                        <button type="button" class="btn main-btn" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!--/ Timeline Modal 1 -->
+
+        <!-- Numbers -->
+	    <div id="numbers" class="section sm-padding">
+
+            <!-- Background Image -->
+            <div class="bg-img" style="background-image: url('assets/images/coverBg1.jpg');">
+                <div class="overlay"></div>
+            </div>
+            <!-- /Background Image -->
+
+            <!-- Container -->
+            <div class="container">
+
+                <!-- Row -->
+                <div class="row slideanim">
+
+                    <!-- number -->
+                    <div class="col-sm-3 col-xs-12">
+                        <div class="number">
+                            <i class="fa fa-users"></i>
+                            <h3 class="white-text"><span class="counter" data-from="0" data-to="2495"
+                                data-speed="5000" ></span></h3>
+                            <span class="white-text">Happy clients</span>
+                        </div>
+                    </div>
+                    <!-- /number -->
+
+                    <!-- number -->
+                    <div class="col-sm-3 col-xs-12">
+                        <div class="number">
+                            <i class="fa fa-trophy"></i>
+                            <h3 class="white-text"><span class="counter" data-from="0" data-to="15"
+                                data-speed="5000" data-refresh-interval="50"></span></h3>
+                            <span class="white-text">Awards won</span>
+                        </div>
+                    </div>
+                    <!-- /number -->
+
+                    <!-- number -->
+                    <div class="col-sm-3 col-xs-12">
+                        <div class="number">
+                            <i class="fa fa-coffee"></i>
+                            <h3 class="white-text"><span class="counter" data-from="0" data-to="167"
+                                data-speed="5000" ></span> K</h3>
+                            <span class="white-text">Cups of Coffee</span>
+                        </div>
+                    </div>
+                    <!-- /number -->
+
+                    <!-- number -->
+                    <div class="col-sm-3 col-xs-12">
+                        <div class="number">
+                            <i class="fa fa-file"></i>
+                            <h3 class="white-text"><span class="counter" data-from="0" data-to="45"
+                                data-speed="5000" data-refresh-interval="50">0</span></h3>
+                            <span class="white-text">Projects completed</span>
+                        </div>
+                    </div>
+                    <!-- /number -->
+
+                </div>
+                <!-- /Row -->
+
+            </div>
+            <!-- /Container -->
+
+        </div>
+        <!-- /Numbers -->
+
+        <!-- Portfolio -->
+	    <div id="portfolio" class="section md-padding bg-grey">
+
+            <!-- Container -->
+            <div class="container">
+
+                <!-- Row -->
+                <div class="row">
+    
+                    <!-- Section header -->
+                    <div class="section-header text-center slideanim">
+                        <h2 class="title upper-text">Featured Works</h2>
+                    </div>
+                    <!-- /Section header -->
+                    
+                    <!-- Mixer Buttons -->
+                        <ul class="row mixer slideanim">
+                            <li type="button" class=" btn mixerButton mixerActive" data-filter="all" >All </li>
+                            <li type="button" class=" btn mixerButton " data-filter=".CatA" >CatA</li>
+                            <li type="button" class=" btn mixerButton " data-filter=".CatB" >CatB</li>
+                            <li type="button" class=" btn mixerButton " data-filter=".CatC" >CatC</li>
+                        </ul>
+                    <!-- /Mixer Buttons -->
+
+                    <!-- Work -->
+                    <div class="col-md-4 col-xs-6 work  mix CatA">
+                        <img class="img-responsive" src="assets/images/work1.jpg" alt="">
+                        <div class="overlay"></div>
+                        <div class="work-content">
+                            <span>Category</span>
+                            <h3>Lorem ipsum dolor</h3>
+                            <div class="work-link">
+                                <a href="comingsoon\index.html"><i class="glyphicon glyphicon-link"></i></a>
+                                <a class="lightbox" href="assets/images/work1.jpg"><i class="fa fa-search"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Work -->
+    
+                    <!-- Work -->
+                    <div class="col-md-4 col-xs-6 work  mix CatB">
+                        <img class="img-responsive" src="assets/images/work2.jpg" alt="">
+                        <div class="overlay"></div>
+                        <div class="work-content">
+                            <span>Category</span>
+                            <h3>Lorem ipsum dolor</h3>
+                            <div class="work-link">
+                                <a href="comingsoon\index.html"><i class="glyphicon glyphicon-link"></i></a>
+                                <a class="lightbox" href="assets/images/work2.jpg"><i class="fa fa-search"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Work -->
+    
+                    <!-- Work -->
+                    <div class="col-md-4 col-xs-6 work  mix CatC">
+                        <img class="img-responsive" src="assets/images/work3.jpg" alt="">
+                        <div class="overlay"></div>
+                        <div class="work-content">
+                            <span>Category</span>
+                            <h3>Lorem ipsum dolor</h3>
+                            <div class="work-link">
+                                <a href="comingsoon\index.html"><i class="glyphicon glyphicon-link"></i></a>
+                                <a class="lightbox" href="assets/images/work3.jpg"><i class="fa fa-search"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Work -->
+    
+                    <!-- Work -->
+                    <div class="col-md-4 col-xs-6 work  mix CatA">
+                        <img class="img-responsive" src="assets/images/work4.jpg" alt="">
+                        <div class="overlay"></div>
+                        <div class="work-content">
+                            <span>Category</span>
+                            <h3>Lorem ipsum dolor</h3>
+                            <div class="work-link">
+                                <a href="comingsoon\index.html"><i class="glyphicon glyphicon-link"></i></a>
+                                <a class="lightbox" href="assets/images/work4.jpg"><i class="fa fa-search"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Work -->
+    
+                    <!-- Work -->
+                    <div class="col-md-4 col-xs-6 work  mix CatB">
+                        <img class="img-responsive" src="assets/images/work5.jpg" alt="">
+                        <div class="overlay"></div>
+                        <div class="work-content">
+                            <span>Category</span>
+                            <h3>Lorem ipsum dolor</h3>
+                            <div class="work-link">
+                                <a href="comingsoon\index.html"><i class="glyphicon glyphicon-link"></i></a>
+                                <a class="lightbox" href="assets/images/work5.jpg"><i class="fa fa-search"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Work -->
+    
+                    <!-- Work -->
+                    <div class="col-md-4 col-xs-6 work  mix CatC">
+                        <img class="img-responsive" src="assets/images/work6.jpg" alt="">
+                        <div class="overlay"></div>
+                        <div class="work-content">
+                            <span>Category</span>
+                            <h3>Lorem ipsum dolor</h3>
+                            <div class="work-link">
+                                <a href="comingsoon\index.html"><i class="glyphicon glyphicon-link"></i></a>
+                                <a class="lightbox" href="assets/images/work6.jpg"><i class="fa fa-search"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Work -->
+                </div>
+                <!-- /Row -->
+            </div>
+            <!-- /Container -->    
+        </div>
+        <!-- /Portfolio -->
+        
+        <!-- Service -->
+	    <div id="service" class="section md-padding">
+
+            <!-- Container -->
+            <div class="container">
+    
+                <!-- Row -->
+                <div class="row">
+    
+                    <!-- Section header -->
+                    <div class="section-header text-center slideanim">
+                        <h2 class="title upper-text">What we offer</h2>
+                    </div>
+                    <!-- /Section header -->
+    
+                    <!-- service -->
+                    <div class="col-md-4 col-sm-6 slideanim">
+                        <div class="service">
+                            <i class="fa fa-diamond"></i>
+                            <h3>App Development</h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                        </div>
+                    </div>
+                    <!-- /service -->
+    
+                    <!-- service -->
+                    <div class="col-md-4 col-sm-6 slideanim">
+                        <div class="service">
+                            <i class="fa fa-eye"></i>
+                            <h3>Graphic Design</h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                        </div>
+                    </div>
+                    <!-- /service -->
+    
+                    <!-- service -->
+                    <div class="col-md-4 col-sm-6 slideanim">
+                        <div class="service">
+                            <i class="fa fa-lightbulb-o"></i>
+                            <h3>Creative Idea</h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                        </div>
+                    </div>
+                    <!-- /service -->
+    
+                    <!-- service -->
+                    <div class="col-md-4 col-sm-6 slideanim">
+                        <div class="service">
+                            <i class="fa fa-line-chart"></i>
+                            <h3>Marketing</h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                        </div>
+                    </div>
+                    <!-- /service -->
+    
+                    <!-- service -->
+                    <div class="col-md-4 col-sm-6 slideanim">
+                        <div class="service">
+                            <i class="fa fa-pencil-square-o"></i>
+                            <h3>Awesome Support</h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                        </div>
+                    </div>
+                    <!-- /service -->
+    
+                    <!-- service -->
+                    <div class="col-md-4 col-sm-6 slideanim">
+                        <div class="service">
+                            <i class="fa fa-flask"></i>
+                            <h3>Brand Design</h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                        </div>
+                    </div>
+                    <!-- /service -->
+    
+                </div>
+                <!-- /Row -->
+    
+            </div>
+            <!-- /Container -->
+    
+        </div>
+        <!-- /Service -->
+
+        <!-- Why Choose Us -->
+        <div id="features" class="section sm-padding bg-grey">
+
+            <!-- Container -->
+            <div class="container">
+
+                <!-- Row -->
+                <div class="row slideanim">
+
+                    <!-- why choose us content -->
+                    <div class="col-md-6">
+                        <div class="section-header">
+                            <h2 class="title">Why Choose Us</h2>
+                        </div>
+                        <p>There are many variations of passages of Lorem Ipsum available, If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+                        <div class="feature">
+                            <i class="fa fa-check"></i>
+                            <p>All the Lorem Ipsum generators on the Internet.</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fa fa-check"></i>
+                            <p>making this the first true generator on the Internet.</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fa fa-check"></i>
+                            <p>It uses a dictionary of over 200 Latin words.</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fa fa-check"></i>
+                            <p>Lorem Ipsum is therefore always free from repetition.</p>
+                        </div>
+                    </div>
+                    <!-- /why choose us content -->
+
+                    <!-- About slider -->
+                    <div class="col-md-6">
+                        <div id="about-slider" class="owl-carousel owl-theme">
+                            <img class="img-responsive" src="assets/images/servSlide1.jpg" alt="">
+                            <img class="img-responsive" src="assets/images/servSlide2.jpg" alt="">
+                            <img class="img-responsive" src="assets/images/servSlide3.jpg" alt="">
+                            <img class="img-responsive" src="assets/images/servSlide4.jpg" alt="">
+                        </div>
+                    </div>
+                    <!-- /About slider -->
+
+                </div>
+                <!-- /Row -->
+
+            </div>
+            <!-- /Container -->
+
+        </div>
+        <!-- /Why Choose Us -->
+
+        <!-- Testimonial -->
+        <div id="testimonial" class="section md-padding ">
+
+            <!-- Background Image -->
+            <div class="bg-img" style="background-image: url('assets/images/background2.png');">
+                <div class="overlay"></div>
+            </div>
+            <!-- /Background Image -->
+
+            <!-- Container -->
+            <div class="container">
+
+                <!-- Row -->
+                <div class="row slideanim">
+
+                    <!-- Testimonial slider -->
+                    <div class="col-md-10 col-md-offset-1">
+                        <div id="testimonial-slider" class="owl-carousel owl-theme">
+
+                            <!-- testimonial -->
+                            <div class="testimonial">
+                                <div class="testimonial-meta">
+                                    <img src="assets/images/img_avatar3.png" alt="">
+                                    <h3 class="white-text">John Snow</h3>
+                                    <span>Web Designer</span>
+                                </div>
+                                <i class="fa fa-quote-left quoty"></i><p class="white-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                            </div>
+                            <!-- /testimonial -->
+
+                            <!-- testimonial -->
+                            <div class="testimonial">
+                                <div class="testimonial-meta">
+                                    <img src="assets/images/img_avatar2.png" alt="">
+                                    <h3 class="white-text">Jack Sparrow</h3>
+                                    <span>Web Designer</span>
+                                </div>
+                                <i class="fa fa-quote-left quoty"></i><p class="white-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                            </div>
+                            <!-- /testimonial -->
+
+                            <!-- testimonial -->
+                            <div class="testimonial">
+                                <div class="testimonial-meta">
+                                    <img src="assets/images/img_avatar3.png" alt="">
+                                    <h3 class="white-text">Megan White</h3>
+                                    <span>Web Designer</span>
+                                </div>
+                                <i class="fa fa-quote-left quoty"></i><p class="white-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                            </div>
+                            <!-- /testimonial -->
+
+                            <!-- testimonial -->
+                            <div class="testimonial">
+                                <div class="testimonial-meta">
+                                    <img src="assets/images/img_avatar2.png" alt="">
+                                    <h3 class="white-text">Sherlok holmes</h3>
+                                    <span>Web Designer</span>
+                                </div>
+                                <i class="fa fa-quote-left quoty"></i><p class="white-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                            </div>
+                            <!-- /testimonial -->
+
+                        </div>
+                    </div>
+                    <!-- /Testimonial slider -->
+
+                </div>
+                <!-- /Row -->
+
+            </div>
+            <!-- /Container -->
+
+        </div>
+        <!-- /Testimonial -->
+
+
+        <!-- Team -->
+        <div id="team" class="section md-padding">
+
+            <!-- Container -->
+            <div class="container">
+
+                <!-- Row -->
+                <div class="row slideanim">
+
+                    <!-- Section header -->
+                    <div class="section-header text-center">
+                        <h2 class="title upper-text">Our Amazing Team</h2>
+                    </div>
+                    <!-- /Section header -->
+                    
+                    <!--Team slider-->
+                    <div id="team-slider" class="owl-carousel owl-theme slideanim">
+                        <!-- team -->
+                        <div class="col-sm-offset-1 col-sm-10 col-xs-offset-2 col-xs-8">
+                            <div class="team">
+                                <div class="team-img">
+                                    <img class="img-responsive" src="assets/images/img_avatar3.png" alt="">
+                                    <div class="overlay">
+                                        <div class="team-social">
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-content">
+                                    <h3>John Snow</h3>
+                                    <span>Web Designer</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /team -->
+
+                        <!-- team -->
+                        <div class="col-sm-offset-1 col-sm-10 col-xs-offset-2 col-xs-8">
+                            <div class="team">
+                                <div class="team-img">
+                                    <img class="img-responsive" src="assets/images/img_avatar2.png" alt="">
+                                    <div class="overlay">
+                                        <div class="team-social">
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-content">
+                                    <h3>John Snow</h3>
+                                    <span>Web Designer</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /team -->
+
+                        <!-- team -->
+                        <div class="col-sm-offset-1 col-sm-10 col-xs-offset-2 col-xs-8">
+                            <div class="team">
+                                <div class="team-img">
+                                    <img class="img-responsive" src="assets/images/img_avatar1.png" alt="">
+                                    <div class="overlay">
+                                        <div class="team-social">
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-content">
+                                    <h3>John Snow</h3>
+                                    <span>Web Designer</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /team -->
+
+                        <!-- team -->
+                        <div class="col-sm-offset-1 col-sm-10 col-xs-offset-2 col-xs-8">
+                            <div class="team">
+                                <div class="team-img">
+                                    <img class="img-responsive" src="assets/images/img_avatar3.png" alt="">
+                                    <div class="overlay">
+                                        <div class="team-social">
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-content">
+                                    <h3>John Snow</h3>
+                                    <span>Web Designer</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /team -->
+
+                        <!-- team -->
+                        <div class="col-sm-offset-1 col-sm-10 col-xs-offset-2 col-xs-8">
+                            <div class="team">
+                                <div class="team-img">
+                                    <img class="img-responsive" src="assets/images/img_avatar2.png" alt="">
+                                    <div class="overlay">
+                                        <div class="team-social">
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-content">
+                                    <h3>John Snow</h3>
+                                    <span>Web Designer</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /team -->
+
+                        <!-- team -->
+                        <div class="col-sm-offset-1 col-sm-10 col-xs-offset-2 col-xs-8">
+                            <div class="team">
+                                <div class="team-img">
+                                    <img class="img-responsive" src="assets/images/img_avatar1.png" alt="">
+                                    <div class="overlay">
+                                        <div class="team-social">
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-content">
+                                    <h3>John Snow</h3>
+                                    <span>Web Designer</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /team -->
+
+                    </div>
+                    <!--Team slider-->
+
+                </div>
+                <!-- /Row -->
+
+            </div>
+            <!-- /Container -->
+
+        </div>
+        <!-- /Team -->
+
+        <!-- Clients -->
+        <div class="clients bg-grey sm-padding">
+            <div class="container">
+                <!-- Container -->
+
+                <div class="row slideanim">
+                    <!-- Row -->
+
+                    <!-- client -->
+                    <div class="col-md-3 col-xs-6">
+                        <a href="#">
+                            <img src="assets/images/envato.jpg" class="img-responsive img-centered" alt="">
+                        </a>
+                    </div>
+                    <!-- /client -->
+
+                    <!-- client -->
+                    <div class="col-md-3 col-xs-6">
+                        <a href="#">
+                            <img src="assets/images/designmodo.jpg" class="img-responsive img-centered" alt="">
+                        </a>
+                    </div>
+                    <!-- /client -->
+
+                    <!-- client -->
+                    <div class="col-md-3 col-xs-6">
+                        <a href="#">
+                            <img src="assets/images/themeforest.jpg" class="img-responsive img-centered" alt="">
+                        </a>
+                    </div>
+                    <!-- /client -->
+
+                    <!-- client -->
+                    <div class="col-md-3 col-xs-6">
+                        <a href="#">
+                            <img src="assets/images/creative-market.jpg" class="img-responsive img-centered" alt="">
+                        </a>
+                    </div>
+                    <!-- /client -->
+
+                </div>
+                <!-- /Row -->
+
+            </div>
+            <!-- /Container -->
+
+        </div>
+        <!-- /Clients -->
+
+        <!-- Contact -->
+        <div id="contact" class="section md-padding">
+
+            <!-- Container -->
+            <div class="container">
+
+                <!-- Row -->
+                <div class="row slideanim">
+
+                    <!-- Section-header -->
+                    <div class="section-header text-center">
+                        <h2 class="title">Get in touch</h2>
+                    </div>
+                    <!-- /Section-header -->
+
+                    <!-- contact -->
+                    <div class="col-sm-4">
+                        <div class="contact light-box box-hover">
+                            <a href="tel:+13062222323">
+                                <i class="fa fa-phone"></i>
+                                <h3>Phone</h3>
+                                <p>512-421-3940</p>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- /contact -->
+
+                    <!-- contact -->
+                    <div class="col-sm-4">
+                        <div class="contact light-box box-hover">
+                            <a href="mailto:info@focal.com">
+                                <i class="fa fa-envelope"></i>
+                                <h3>Email</h3>
+                                <p>info@slogan-it.com</p>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- /contact -->
+
+                    <!-- contact -->
+                    <div class="col-sm-4">
+                        <div class="contact light-box box-hover">
+                            <a class="lightbox" href="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2825.763419372783!2d31.32362757411518!3d29.96259464203058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2seg!4v1543220751678">
+                                <i class="fa fa-map-marker"></i>
+                                <h3>Address</h3>
+                                <p>36R Zahraa El-Maadi</p>
+                            </a>
+                        </div>
+                    </a>
+                    </div>
+                    <!-- /contact -->
+
+                    <!-- contact form -->
+                    <div class="col-md-8 col-md-offset-2">
+                        <form class="contact-form">
+                            <input type="text" class="input" placeholder="Name">
+                            <input type="email" class="input" placeholder="Email">
+                            <input type="text" class="input" placeholder="Subject">
+                            <textarea class="input" placeholder="Message"></textarea>
+                            <button class="main-btn">Send message</button>
+                        </form>
+                    </div>
+                    <!-- /contact form -->
+
+                </div>
+                <!-- /Row -->
+
+            </div>
+            <!-- /Container -->
+
+        </div>
+        <!-- /Contact -->
+
+        <!-- Footer -->
+	<footer id="footer" class="sm-padding bg-dark">
+
+            <!-- Container -->
+            <div class="container">
+    
+                <!-- Row -->
+                <div class="row slideanim">
+    
+                    <div class="col-md-12">
+    
+                        <!-- footer logo -->
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="assets/images/logo3.png" alt="logo"></a>
+                        </div>
+                        <!-- /footer logo -->
+    
+                        <!-- footer follow -->
+                        <ul class="footer-follow">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        </ul>
+                        <!-- /footer follow -->
+    
+                        <!-- footer copyright -->
+                        <div class="footer-copyright">
+                            <p>Copyright © 2018. All Rights Reserved. Developed by <a href="#">Ahmed Nasser</a></p>
+                        </div>
+                        <!-- /footer copyright -->
+    
+                    </div>
+    
+                </div>
+                <!-- /Row -->
+    
+            </div>
+            <!-- /Container -->
+    
+        </footer>
+        <!-- /Footer -->
+
+        <!-- Back to top -->
+        <div id="back-to-top"></div>
+        <!-- /Back to top -->
+
+        <!-- Preloader -->
+        <div id="preloader">
+            <div class="preloader">
+                <img src="assets/images/logo1.png" alt="PreloaderImage">
+            </div>
+        </div>
+        <!-- /Preloader -->
+
+        <!-- jQuery Plugins -->
+        <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+        <script type="text/javascript" src="assets/js/jquery.nicescroll.min.js"></script>
+        <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.magnific-popup.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.countTo.js"></script>
+        <script type="text/javascript" src="assets/js/mixitup.min.js"></script>
+        <script type="text/javascript" src="assets/js/main.js"></script>
+    </body>
+</html>
