@@ -1,6 +1,6 @@
 # Slogan
 
-This project was developed for slogan-it you can view it [here](http://slogan-it.com/test/) or [here](https://ahmedtgp.github.io/slogan-desgin/)
+This project was developed for slogan-it you can view at [slogan-it test link](http://slogan-it.com/test/) or [here](https://ahmedtgp.github.io/slogan-desgin/)
 
 ## Technology Used
 
